@@ -1,7 +1,7 @@
 message = input("Tell me something, and i will reapeat it back to you: ")
 print(message)
 
-#writing clear prompts
+# writing clear prompts
 prompt = "If you share your name, we can ersonalized the messages you see."
 prompt += "\nWhat is your first name? "
 name = input(prompt)
@@ -15,7 +15,7 @@ if height >= 48:
 else:
     print("\nYou'll be able to ride when you're a little older.")
 
-#the modulo operator
+# the modulo operator
 number = input("Enter a number, and I'll tell you if it is even or odd: ")
 number = int(number)
 if number % 2 == 0:
